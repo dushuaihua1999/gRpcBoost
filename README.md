@@ -50,3 +50,4 @@ Finally, post a thought map summarized by myself to help you remmber better.
 ![image-20210805150855980](https://github.com/dushuaihua1999/gRpcBoost/blob/master/image-20210805150855980.png)
 
 #### 6.如有问题，欢迎讨论
+#### 7.下载后可以把文件里的图片删除
