@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+
+package protos;
+
+message String {
+  string value = 1;
+}
+
+service HelloService {
+  //普通函数调用
+  rpc Hello (String) returns (String);
+  //双向流调用
+  rpc Channel (stream String) returns (stream String);
+  //客户端普通函数,服务器流式
+  rpc ChannelS (String) returns (stream String);
+  //客户端流式,服务器普通函数调用
+  rpc ChannelC (stream String) returns (String);
+}
